@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756907933457",
+    "firebase_url": "https://atplc-809f7.firebaseio.com",
+    "project_id": "atplc-809f7",
+    "storage_bucket": "atplc-809f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756907933457:android:b177ba73778e6713ced6b0",
+        "android_client_info": {
+          "package_name": "com.bcebhagalpur.atplc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756907933457-4av6hhbfmeio6jn6lfdnaja3q2lc4hoj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bcebhagalpur.atplc",
+            "certificate_hash": "524026c110fb45b811edf12519afa80efffdea17"
+          }
+        },
+        {
+          "client_id": "756907933457-r28bd76nsp3a59vpqabbq76mk9kukco6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnHdRMEWRgW9DcQYqA6tU6lxcarF_6ui4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756907933457-r28bd76nsp3a59vpqabbq76mk9kukco6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

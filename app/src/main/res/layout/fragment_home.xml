@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.HomeFragment">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-5237790405042637/8972185509"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-5237790405042637/2364654367"
+        />
+
+    <LinearLayout
+       android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imgGoogleClassroom"
+                android:layout_marginEnd="6dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/google"/>
+
+            <TextView
+                android:id="@+id/txtGoogleClassroom"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imgGoogleClassroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google Classroom"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/r2"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imgZoom"
+                android:layout_marginEnd="6dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/zoom"/>
+
+            <TextView
+                android:id="@+id/txtZoom"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imgZoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Online Session"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/r3"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imgYoutube"
+                android:layout_marginEnd="6dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/youtube"/>
+
+            <TextView
+                android:id="@+id/txtYoutube"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imgYoutube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Session Videos"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/r4"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/imgCompiler"
+                android:layout_marginEnd="6dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/compiler"/>
+
+            <TextView
+                android:id="@+id/txtCompiler"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imgCompiler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Tool"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

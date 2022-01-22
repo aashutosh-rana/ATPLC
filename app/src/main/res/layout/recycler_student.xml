@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/description"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_margin="5dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        />
+<LinearLayout
+    android:weightSum="3"
+    android:orientation="vertical"
+    android:layout_toEndOf="@+id/img"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:text="name"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginStart="2dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/txtCollege"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="college"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginStart="2dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/txtBranch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Branch"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginStart="2dp"
+            />
+</LinearLayout>
+        <Button
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/rectangle_background"
+            android:id="@+id/btnSendEmail"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:layout_height="40dp"
+            android:text="send email"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:textSize="15sp"
+            android:layout_marginStart="2dp"
+            android:layout_toEndOf="@+id/img"
+            android:paddingBottom="10dp"/>
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

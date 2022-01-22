@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DeveloperFragment">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragment.DeveloperFragment">
+
+<ImageView
+    android:id="@+id/imgDeveloper"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:src="@drawable/developer_circle_image"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgDeveloper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_me_to_develop_your_own_application"/>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:padding="10dp"
+        android:text="@string/email_aashutosh_kr_2308_gmail_com"/>
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:padding="10dp"
+        android:text="@string/_91_8434230999"/>
+<RelativeLayout
+    android:id="@+id/r1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/txtNumber"
+    android:background="@drawable/rectangle_background"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/txtContact"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/describe_your_requirement_in_detail"/>
+
+    <EditText
+        android:id="@+id/etDescribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtContact"
+        android:padding="12dp"
+        android:background="@drawable/rectangle_background"
+        android:layout_margin="10dp"
+        android:hint="@string/describe_here"/>
+
+</RelativeLayout>
+
+    <Button
+        android:id="@+id/btnSendDetail"
+        android:layout_below="@+id/r1"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/send_detail"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">ATPLC</string>
+    <string name="v1">Verify OTP</string>
+    <string name="home">Home</string>
+    <string name="logout">LogOut</string>
+    <string name="about_us">About Us</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="qna">QNA</string>
+    <string name="feedback">Feedback</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="students">Students</string>
+    <string name="profile">Profile</string>
+    <string name="developer">developer</string>
+    <string name="more_apps">More apps</string>
+    <string name="settings">Setting</string>
+    <string name="search_student">search name , college or branch</string>
+    <string name="item_not_found">No student found</string>
+    <string name="c_programming">C Programming</string>
+    <string name="web_development">Web Development</string>
+    <string name="data_structure">Data Structure</string>
+    <string name="alumni_interaction">Alumni Interaction</string>
+    <string name="write_here">write here....</string>
+    <string name="send_message">send message</string>
+    <string name="about_us_paragraph">A Technical and Practical Learning Club(or ATPLC) is a
+        technical and practical club which aimed at providing practical learning experience and
+        an all-round development to the tech-students. Initiated in 2020 from Motihari College
+        of Engineering, Motihari Campus, through this club we aims at motivating students to learn proper
+        set of skills apart from semester syllabus which is required to make them stand apart from mob.
+        This club also helps students to sort out problems and confusion they are facing during
+        learning any specific skill.Apart from that it also provide them a platform to show their existing
+        skill and also help them to nurture it by competing themselves with other same skill occupying
+        students.And overall these procedure help them in developing a proper stack of skill which will
+        help them in placement or while working in organization. Apart from all these, this club also helps
+        students to clear doubt related to their semester subjects by organizing discussion and doubt clearing classes.
+        So,overall this club focus at helping a student in their all-round development to become fit
+        for professional world.</string>
+    <string name="please_share_your_feedback">Please share your feedback</string>
+    <string name="write_the_benefits_you_got_from_club">Write the benefits you got from club.</string>
+    <string name="how_much_satisfied_you">How much satisfied you?</string>
+    <string name="please_tell_us_issue_in_detail">Please tell us issue in detail.</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="_5">5</string>
+    <string name="address">Address: Motihari College of Engineering Campus, NH 28A, Furshatpur Bariyarpur Motihari,Motihari,Bihar Pin-845401</string>
+    <string name="write_your_query_here">write your query here.</string>
+    <string name="submit_query">Submit Query</string>
+    <string name="phone_no2_91_6205695667">Phone no2: +91-6205695667</string>
+    <string name="phone_no1_91_6205695667">Phone no1: +91-9122461780</string>
+    <string name="email_id_contact2atplc_gmail_com">Email id: contact2atplc@gmail.com</string>
+    <string name="contact_me_to_develop_your_own_application">contact me to develop your own application</string>
+    <string name="email_aashutosh_kr_2308_gmail_com">Email: aashutosh.kr.2308@gmail.com</string>
+    <string name="_91_8434230999">+91-8434230999</string>
+    <string name="describe_your_requirement_in_detail">Describe your requirement in detail</string>
+    <string name="describe_here">Describe here.......</string>
+    <string name="send_detail">Send Detail</string>
+    <string name="no_settings_available">no settings available</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="send_otp">Send Otp</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="_91">+91</string>
+    <string name="college_name">College name</string>
+    <string name="email_id">Email id</string>
+    <string name="number">Number</string>
+    <string name="name">Name</string>
+    <string name="branch_name">Branch name</string>
+</resources>

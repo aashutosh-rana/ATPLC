@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    >
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.bcebhagalpur.atplc.fragment.HomeFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_qna"
+        android:name="com.bcebhagalpur.atplc.fragment.QnaFragment"
+        android:label="@string/qna"
+        tools:layout="@layout/fragment_qna" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.bcebhagalpur.atplc.fragment.FeedbackFragment"
+        android:label="@string/feedback"
+        tools:layout="@layout/fragment_feedback" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.bcebhagalpur.atplc.fragment.AboutUsFragment"
+        android:label="@string/about_us"
+        tools:layout="@layout/fragment_about_us" >
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_contact"
+        android:name="com.bcebhagalpur.atplc.fragment.ContactUsFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contact_us" >
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.bcebhagalpur.atplc.fragment.ProfielFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profiel" >
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_student"
+        android:name="com.bcebhagalpur.atplc.fragment.StudentFragment"
+        android:label="@string/students"
+        tools:layout="@layout/fragment_student" >
+    </fragment>
+</navigation>

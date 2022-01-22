@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.YoutubeActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="45dp"
+        android:layout_height="500dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:background="@color/colorPrimary"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"/>
+
+    <View
+        android:layout_toEndOf="@+id/view1"
+        android:layout_toStartOf="@+id/view"
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+
+    <Button
+        android:layout_below="@+id/view2"
+        android:layout_toEndOf="@+id/view1"
+        android:id="@+id/btnCPrograming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/view"
+        android:background="@color/colorPrimary"
+        android:text="@string/c_programming"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_toEndOf="@+id/view1"
+        android:id="@+id/btnWebDevelopment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/view"
+        android:background="@color/colorPrimary"
+        android:text="@string/web_development"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/btnCPrograming"/>
+
+    <Button
+        android:layout_toEndOf="@+id/view1"
+        android:id="@+id/btnDataStructure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/view"
+        android:background="@color/colorPrimary"
+        android:text="@string/data_structure"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/btnWebDevelopment"/>
+
+    <Button
+        android:layout_toEndOf="@+id/view1"
+        android:id="@+id/btnAlumniInteraction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/view"
+        android:background="@color/colorPrimary"
+        android:text="@string/alumni_interaction"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/btnDataStructure"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-5237790405042637/3657554738"
+        />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-5237790405042637/9839819708"
+        />
+
+</RelativeLayout>

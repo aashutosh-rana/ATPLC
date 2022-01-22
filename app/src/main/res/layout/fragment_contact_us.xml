@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ContactUsFragment"
+    android:orientation="vertical"
+    android:background="@drawable/rectangle_background">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragment.ContactUsFragment"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+  <ImageView
+      android:id="@+id/imgAtplc"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:background="@drawable/atplc"
+      android:layout_gravity="center_horizontal"
+      />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_id_contact2atplc_gmail_com"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/txtPhone1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_no1_91_6205695667"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_dark"/>
+    <TextView
+        android:id="@+id/txtPhone2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_no2_91_6205695667"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/txtWebsite"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="website: http://atplclub.rf.gd/?i=1"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <EditText
+        android:id="@+id/etQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_background"
+        android:textSize="15sp"
+        android:padding="12dp"
+        android:layout_margin="10dp"
+        android:hint="@string/write_your_query_here"/>
+
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rectangle_background">
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_query"
+        android:textAllCaps="false"
+        android:background="@drawable/rectangle_background2"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

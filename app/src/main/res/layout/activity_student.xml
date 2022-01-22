@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.StudentActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_gallery"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full name *"
+            android:maxLines="1"
+            android:background="@drawable/rectangle_background"
+            android:padding="13dp"
+            android:layout_margin="10dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etCollege"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="College *"
+            android:maxLines="2"
+            android:background="@drawable/rectangle_background"
+            android:padding="13dp"
+            android:layout_margin="10dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etBranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Branch *"
+            android:maxLines="2"
+            android:background="@drawable/rectangle_background"
+            android:padding="13dp"
+            android:layout_margin="10dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email (Optional)"
+            android:maxLines="1"
+            android:background="@drawable/rectangle_background"
+            android:padding="13dp"
+            android:layout_margin="10dp"
+            android:inputType="textEmailAddress"/>
+
+        <Button
+            android:id="@+id/btnResister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_background2"
+            android:text="register"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            />
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-5237790405042637/9811243009"
+            />
+
+    </LinearLayout>
+</ScrollView>
